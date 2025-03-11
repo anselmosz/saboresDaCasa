@@ -1,5 +1,91 @@
 @import url(./style.css);
 
-.header-title {
+.receita-header {
+  background: url(../images/thumbnail.PNG) center/cover no-repeat;
+  height: 600px; /* Altura do header */
+  display: flex;
   align-items: end;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.header-content {
+  justify-content: end;
+  text-align: start;
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  gap: 18px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+.header-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.header-content p {
+  font-size: 1.2rem;
+}
+
+
+/* Configurações do main */
+.receita-main {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.back {
+  color: var(--bg3);
+  font-weight: 600;
+}
+
+.receita-card-detail {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  background: var(--text1);
+  padding: 14px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.receita-info {
+  padding: 0 0 16px 0;
+  margin-bottom: 16px;
+  border-bottom: solid 1px #000;
+}
+
+.seletor {
+  width: 100%;
+  border-radius: 7px;
+  background: var(--bg-alt);
+  padding: 16px 4px;
+}
+.btn {
+  border-radius: 5px;
+  padding: 12px 12px;
+  background: none;
+}.btn:hover {
+  background: var(--text1);
+}
+
+.nutri-table {
+  text-align: start;
+  border-radius: 10px;
+  background: var(--text1);
+  padding: 16px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.nutri-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+  margin-bottom: 12px;
+  border-bottom: solid 1px #0000003a;
+}
+.nutri-content:last-child {
+  border: none;
 }
