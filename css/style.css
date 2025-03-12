@@ -20,7 +20,6 @@ a {
 }
 h2 {
   color: var(--bg3);
-  margin-bottom: 28px;
 }
 /* configurações do header */
 .header {
@@ -73,14 +72,14 @@ footer {
 .footer-title {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
 }
 .footer-title h2 {
   color: var(--text1);
   font-size: 24px;
 }
 .footer-title p{
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .footer-links {
@@ -93,7 +92,7 @@ footer {
   font-weight: 500px;
   transition: 0.3s;
 } .footer-links a:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /* Configurações do main */
@@ -102,6 +101,9 @@ footer {
   flex-direction: column;
   align-items: center;
   margin: 32px 0;
+}
+.main h2 {
+  margin-bottom: 28px;
 }
 
 .receitas-container {
