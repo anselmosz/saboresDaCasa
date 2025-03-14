@@ -10,8 +10,8 @@ function trocarLista(activeList, disableList) {
   disableList.style.display = "none";
 }
 
-ingredienteBtn.addEventListener("click", ()=> { trocarLista(ingredientesContentID, preparoContentID) });
+ingredienteBtn.addEventListener("click", ()=> { trocarLista(ingredientesContentID, preparoContentID)
+});
 
-preparoBtn.addEventListener("click", ()=> { trocarLista(preparoContentID, ingredientesContentID)})
-
-ingredientesContentID.style.back
+preparoBtn.addEventListener("click", ()=> { trocarLista(preparoContentID, ingredientesContentID) 
+})
