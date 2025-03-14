@@ -15,12 +15,25 @@ body {
   background: var(--bg1);
 }
 
+li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
 }
 h2 {
   color: var(--bg3);
 }
+
 /* configurações do header */
 .header {
   padding: 16px 0;
