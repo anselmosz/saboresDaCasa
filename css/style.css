@@ -20,7 +20,8 @@ li {
   list-style-type: none;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
 }
 input {
   outline: none;
