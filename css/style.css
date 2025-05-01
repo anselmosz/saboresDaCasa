@@ -143,6 +143,7 @@ footer {
   transition: 0.3s;
 }.receita-card:hover {
   transform: translateY(10px);
+  background-color: var(--bg-alt);
 }
 .receita-data {
   display: flex;
